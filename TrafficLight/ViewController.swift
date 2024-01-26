@@ -1,19 +1,18 @@
-//
-//  ViewController.swift
-//  TrafficLight
-//
-//  Created by Алексей on 26.01.2024.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
-
+final class ViewController: UIViewController {
+    
+    @IBOutlet weak var redLightView: UIView!
+    @IBOutlet weak var yellowLightView: UIView!
+    @IBOutlet weak var greenLightView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
+    @IBAction func startButtonDidTapped(_ sender: UIButton) {
+    }
+    
 
 }
 
